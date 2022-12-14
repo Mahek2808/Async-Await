@@ -1,0 +1,39 @@
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\bin\Debug\netcoreapp3.1\Async await Goals.exe
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\bin\Debug\netcoreapp3.1\Async await Goals.deps.json
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\bin\Debug\netcoreapp3.1\Async await Goals.runtimeconfig.json
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\bin\Debug\netcoreapp3.1\Async await Goals.runtimeconfig.dev.json
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\bin\Debug\netcoreapp3.1\Async await Goals.dll
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\bin\Debug\netcoreapp3.1\Async await Goals.pdb
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\bin\Debug\netcoreapp3.1\Remotion.Linq.dll
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\bin\Debug\netcoreapp3.1\System.Interactive.Async.dll
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\obj\Debug\netcoreapp3.1\Async await Goals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\obj\Debug\netcoreapp3.1\Async await Goals.AssemblyInfoInputs.cache
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\obj\Debug\netcoreapp3.1\Async await Goals.AssemblyInfo.cs
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\obj\Debug\netcoreapp3.1\Async await Goals.csproj.CoreCompileInputs.cache
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\obj\Debug\netcoreapp3.1\Async await Goals.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\obj\Debug\netcoreapp3.1\Async await Goals.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\obj\Debug\netcoreapp3.1\staticwebassets\Async await Goals.StaticWebAssets.Manifest.cache
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\obj\Debug\netcoreapp3.1\staticwebassets\Async await Goals.StaticWebAssets.xml
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\obj\Debug\netcoreapp3.1\scopedcss\bundle\Async await Goals.styles.css
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\obj\Debug\netcoreapp3.1\Async await Goals.RazorTargetAssemblyInfo.cache
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\obj\Debug\netcoreapp3.1\Async await Goals.csproj.CopyComplete
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\obj\Debug\netcoreapp3.1\Async await Goals.dll
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\obj\Debug\netcoreapp3.1\Async await Goals.pdb
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\obj\Debug\netcoreapp3.1\Async await Goals.genruntimeconfig.cache
+C:\Users\mahek\PROJECTS\Async await Goals\Async await Goals\obj\Debug\netcoreapp3.1\Async await Goals.csproj.AssemblyReference.cache
