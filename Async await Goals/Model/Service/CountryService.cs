@@ -17,30 +17,15 @@ namespace Async_await_Goals.Model.Service
             _context = context;
         }
 
-        public async Task <List<Country>> GetCountry()
-        {
-            try
-            {
-                var countries = await _context.Countries.ToListAsync();
-                return countries;
-            }
-            catch (Exception ex)
-            {
-                throw;
-            }
+        public Task <List<Country>> GetCountry()
+        {      
+             return _context.Countries.ToListAsync();
         }
 
-        public async Task<int> AddCountry(Country entity)
+        public Task<int> AddCountry(Country entity)
         {
-            try
-            {
                 _context.Countries.Add(entity);
-                return await _context.SaveChangesAsync();
-            }
-            catch (Exception ex)
-            {
-                throw;
-            }
+                return _context.SaveChangesAsync();
         }
         
         
@@ -48,7 +33,7 @@ namespace Async_await_Goals.Model.Service
         {
             try
             {
-                var OldRec = _context.Countries.SingleOrDefault(m => m.CountryId == id);
+                var OldRec = await _context.Countries.SingleOrDefaultAsync(m => m.CountryId == id);
                 if(OldRec != null)
                 {
                     OldRec.CountryId = entity.CountryId;
@@ -64,23 +49,15 @@ namespace Async_await_Goals.Model.Service
             }
             catch (Exception ex)
             {
-                throw;
+                throw new Exception("Failed to Update Country.", ex);
             }
         }
 
         public async Task<int> DeleteCountry(int id)
         {
-            try
-            {
-                var OldRec = _context.Countries.SingleOrDefault(m => m.CountryId == id);
+                var OldRec = await _context.Countries.SingleOrDefaultAsync(m => m.CountryId == id);
                 _context.Countries.Remove(OldRec);
                 return await _context.SaveChangesAsync();
-            }
-            catch (Exception ex)
-            {
-                throw;
-            }
         }
-
     }
 }

@@ -17,14 +17,7 @@ namespace Async_await_Goals.Controllers
         public readonly ICountry _imsService;
         public CountryController(ICountry ims)
         {
-            try
-            {
                 _imsService = ims;
-            }
-            catch
-            {
-                throw;
-            }
         }
         //private readonly Context _context;
 
@@ -33,60 +26,29 @@ namespace Async_await_Goals.Controllers
         //    _context = context;
         //}
 
-        [HttpGet("GetAllCountry")]
-        public async Task<List<Country>> GetAllCountry()
+        [HttpGet("GetAllCountryAsync")]
+        public Task<List<Country>> GetAllCountryAsync()
         {
-            try
-            {
-                var countries = await _imsService.GetCountry();
-                return countries;
-            }
-            catch(Exception ex)
-            {
-                throw;
-            }
+                return _imsService.GetCountry();
         }
 
-        [HttpPost("AddCountry")]
-        public async Task<Country> AddCountry([FromBody] Country obj)
+        [HttpPost("AddCountryAsync")]
+        public async Task<Country> AddCountryAsync([FromBody] Country obj)
         {
-            try
-            {
                 await _imsService.AddCountry(obj);
                 return obj;
-            }
-            catch(Exception ex)
-            {
-                throw;
-            }
         }
 
-        [HttpPut("UpdateCountry")]
-        public async Task<int> UpdateCountry(int id, Country entity)
+        [HttpPut("UpdateCountryAsync")]
+        public Task<int> UpdateCountryAsync(int id, Country entity)
         {
-            try
-            {
-                var result = await _imsService.UpdateCountry(id, entity);
-                return result;
-            }
-            catch (Exception ex)
-            {
-                throw;
-            }
+            return _imsService.UpdateCountry(id, entity);
         }
 
-        [HttpDelete("DeleteCountry")]
-        public async Task<int> DeleteCountry(int id)
+        [HttpDelete("DeleteCountryAsync")]
+        public async Task<int> DeleteCountryAsync(int id)
         {
-            try
-            {
-                var result = await _imsService.DeleteCountry(id);
-                return result;
-            }
-            catch (Exception ex)
-            {
-                throw;
-            }
+            return await _imsService.DeleteCountry(id);
         }
     }
 }
